@@ -1,0 +1,48 @@
+<div id="bannerContainer">
+    <div class="notification-banner" id="notificationBanner">
+        <span>
+            <strong>Thông báo:</strong> Hệ thống sẽ được bảo trì từ 22:00 đến 04:00 ngày mai.
+            Vui lòng hoàn tất công việc trước thời gian này.
+        </span>
+        <button class="close-btn" onclick="closeBanner()">×</button>
+    </div>
+</div>
+
+<script>
+    // Hàm đóng banner
+    function closeBanner() {
+        const banner = document.getElementById('notificationBanner');
+        banner.style.display = 'none'; // Ẩn banner
+    }
+</script>
+
+<style>
+    /* Styling cho banner */
+    .notification-banner {
+        width: 100%;
+        background-color: #ffc107;
+        /* Màu vàng nổi bật */
+        color: #212529;
+        /* Màu chữ */
+        font-size: 16px;
+        text-align: center;
+        padding: 10px 20px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        position: relative;
+        /* Đặt position để nút đóng hoạt động */
+    }
+
+    /* Nút đóng */
+    .notification-banner .close-btn {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        font-size: 18px;
+        color: #212529;
+        cursor: pointer;
+        outline: none;
+    }
+</style>
