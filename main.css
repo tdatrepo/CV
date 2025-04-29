@@ -46,7 +46,7 @@ li{
 width: 1050px;
 height: 100%;
 background-color: white;
-border: 5px solid hsl(0, 0%, 54%) ;
+/* border: 5px solid hsl(0, 0%, 54%) ; */
 margin: 0px 300px;
 display: flex;
 }
@@ -61,7 +61,7 @@ display: flex;
 
 .khungphai{
     width: 100%;
-    border: 8px inset;
+    /* border: 8px inset; */
 }
 
 .khungtraitren{
@@ -76,7 +76,7 @@ display: flex;
 .hinhanh{
     border-width: 2px;
     border-style: solid;
-    border-radius: 10%;
+    /* border-radius: 10%; */
     margin: 0px 40px 10px;
     width: 160px;
     height: 220px;
@@ -106,6 +106,7 @@ h1{
 
 .box{
     padding-left: 20px;
+    padding-right: 20px;
     margin-top: 30px;
     height: auto;
     box-sizing: content-box;
